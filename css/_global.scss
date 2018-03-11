@@ -1,0 +1,25 @@
+$transition-links: 0.3s;
+$button-apperance-attr: none;
+$font-svg-slider: "Times New Roman", Times, serif;
+$color-hover-buttons: rgba(25, 17, 5, 0.81);
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.defaultcursor {
+  cursor: default;
+}
+
+.nodisplay {
+  display: none;
+  visibility: hidden;
+}
+
+body {
+  background-color: #151617;
+}

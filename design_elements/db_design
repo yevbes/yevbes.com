@@ -1,0 +1,27 @@
+- DATASBASE yevbes_db
+    - TABLE admin
+        - id -> PK
+        - user
+        - pass
+
+    - TABLE articles
+        - id -> PK
+        - title
+        - text
+        - category_id -> (categories)
+        - pubdate
+        - image
+        - views //Number of views
+        - image
+
+    - TABLE categories
+        - id -> PK
+        - name_category
+
+
+    - TABLE comments
+        - id -> PK
+        - autor
+        - text
+        - pubdate
+        - articles_id -> (articles)
